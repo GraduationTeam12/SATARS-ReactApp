@@ -1,0 +1,25 @@
+.bgContact {
+ 
+  background: url('./img/bgContact.svg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+     
+}
+.bgColor {
+    background: linear-gradient(180deg, rgba(62, 92, 169, 0.8), rgba(251, 176, 64, 0.8));
+}
+.btnSubmit {
+    background: #FFB441;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 8px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.btnSubmit:hover {
+    opacity: 0.8;
+}

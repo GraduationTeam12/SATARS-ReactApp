@@ -1,0 +1,47 @@
+
+  
+  .request-btn {
+    background: linear-gradient(90deg, #fbb040, #3e5ca9);
+    color: white;
+    border-radius: 20px;
+    padding: 8px 15px;
+    font-weight: bold;
+    transition: 0.3s;
+    text-decoration: none;
+  }
+  
+  .request-btn:hover {
+    opacity: 0.8;
+  }
+  
+  .phone-img {
+    max-width: 100%; 
+    width: 790px;
+  }
+  .pgHome {
+    
+  background: url('./img/bgHome.svg');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  }
+  .fontSize {
+    font-size: 25px;
+  }
+  
+  
+  @media (max-width: 768px) {
+    .text-content {
+      text-align: center;
+    }
+  
+    .phone-img {
+      max-width: 100%;
+      width: 400px;
+      margin-top: 20px;
+    }
+    .fontSize {
+      font-size: 16px;
+    }
+  }
+  

@@ -1,0 +1,64 @@
+.navbar {
+    padding: 4px 8px;
+  }
+  .navbar {
+    position: sticky;
+    top: 0;
+    width: 100%;
+    z-index: 1000;
+    background-color: white;
+    /* box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.05); */
+  }
+  
+  .logo {
+    height: 46px;
+  }
+  
+  .navbar-nav {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+  }
+  
+  .nav-item {
+    font-weight: 500;
+  }
+  
+  
+  .navbar-collapse {
+    flex-grow: 0.6; 
+  }
+  
+ 
+  .request-invite-btn {
+    background: linear-gradient(90deg, #fbb040, #3e5ca9);
+    color: white;
+    border-radius: 20px;
+    padding: 8px 15px;
+    font-weight: bold;
+    transition: 0.3s;
+    text-decoration: none;
+  }
+  
+  .request-invite-btn:hover {
+    opacity: 0.9;
+  }
+  
+  
+  @media (max-width: 991px) {
+   
+  
+ 
+    .request-invite-btn.d-lg-inline-block {
+      display: none !important;
+    }
+  
+   
+    .nav-item .request-invite-btn {
+      display: block;
+      width: 100%;
+      max-width: 200px;
+      margin: 10px auto;
+    }
+  }
+  

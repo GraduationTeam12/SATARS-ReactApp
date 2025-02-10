@@ -1,0 +1,108 @@
+.footer {
+    background-color: white;
+    padding: 20px 0;
+    display: flex;
+    justify-content: center;
+  }
+  
+  .footer-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 90%;
+    max-width: 1200px;
+  }
+  
+  .footer-brand {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+  }
+  
+  .footer-logo {
+    width: 45px;
+    margin-bottom: 5px;
+  }
+  
+  .brand-name {
+    font-weight: bold;
+    font-size: 18px;
+    margin-bottom: 8px;
+  }
+  
+  .social-icons {
+    display: flex;
+    gap: 15px;
+    font-size: 18px;
+    color: #333;
+  }
+  
+  .footer-links {
+    display: flex;
+    gap: 80px;
+  }
+  
+  .footer-links div {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+  }
+  
+  .footer-links a {
+    text-decoration: none;
+    color: #333;
+    font-size: 14px;
+    transition: color 0.3s;
+  }
+  
+  .footer-links a:hover {
+    color: #d4a017;
+  }
+  
+  .footer-actions {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+  }
+  
+  .request-invite-btn {
+    background: linear-gradient(90deg, #fbb040, #3e5ca9);
+    color: white;
+    border-radius: 20px;
+    padding: 8px 15px;
+    font-weight: bold;
+    transition: 0.3s;
+    text-decoration: none;
+  }
+  
+  .request-invite-btn:hover {
+    opacity: 0.85;
+  }
+  
+  .copyright {
+    font-size: 12px;
+    color: gray;
+    margin-top: 10px;
+  }
+  
+  /* Responsive Design */
+  @media (max-width: 768px) {
+    .footer-content {
+      flex-direction: column;
+      align-items: center;
+      gap: 20px;
+    }
+  
+    .footer-links {
+      flex-direction: column;
+      align-items: center;
+      gap: 10px;
+    }
+  
+    .footer-actions {
+      text-align: center;
+    }
+  }
+  
