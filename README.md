@@ -1,10 +1,36 @@
-# React + Vite
+# Satars Frontend
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Welcome to the **Satars Frontend** project! 🎉
 
-Currently, two official plugins are available:
+## Live Website 🌐
+[Visit Satars](https://satars.surge.sh/)
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
-# SATARS-ReactApp
-# SATARS-ReactApp
+## Technologies Used 🛠️
+- **React.js** ⚛️
+- **Bootstrap** 🎨
+- **Vite** 🚀
+
+## How to Run the Project 🏃‍♂️
+1. Clone the repository:
+   ```sh
+   git clone <repository-url>
+   ```
+2. Navigate to the project directory:
+   ```sh
+   cd satars-frontend
+   ```
+3. Install dependencies:
+   ```sh
+   npm install
+   ```
+4. Start the development server:
+   ```sh
+   npm run dev
+   ```
+
+## Deployment 🚀
+The project is deployed using **Surge**.
+
+---
+Made with ❤️ by the Satars Team.
+
